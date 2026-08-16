@@ -341,7 +341,7 @@
 	"artifact.core.spellBook.description": "{魔法书}\n\n用鼠标左键点击魔法书可以查看你的魔法。",
 	"artifact.core.spellBook.event": "你被一本魔法书绊了一下，你拾起了它，放进包里。",
 	"artifact.core.spellBook.name": "魔法书",
-	"artifact.core.spellScroll.description": "{魔法卷轴}\n\n此卷轴记录了一个叫做[spell name]的魔法，装备这个卷轴，该魔法就会被添加进你的魔法书中。",
+	"artifact.core.spellScroll.description": "{魔法卷轴}\n\n此卷轴记录了一个[spell name]魔法，装备这个卷轴，该魔法就会被添加进你的魔法书中。",
 	"artifact.core.spellScroll.event": "你发现了一个精美的罐子，里面装着一卷古老的羊皮卷轴。罐子上的符文非常古老，它的制作工艺令人惊叹。当你拿出卷轴时，你感到自己被魔法力量所充盈。",
 	"artifact.core.spellScroll.name": "魔法卷轴",
 	"artifact.core.sphereOfPermanence.description": "{永恒之球}\n\n永恒之球可以使你的部队免受敌方施放的驱魔大法影响。",

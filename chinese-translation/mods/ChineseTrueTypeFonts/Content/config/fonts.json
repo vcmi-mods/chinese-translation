@@ -31,7 +31,7 @@
 		"MEDFONT"  : { "file" : "WenQuanYi.ttf", "size" : 16, "blend" : true}, // breaks messages (from map events)
 		"SMALFONT" : { "file" : "WenQuanYi.ttf", "size" : 13, "blend" : true},
 		"TIMES08R" : { "file" : "WenQuanYi.ttf", "size" :  9, "blend" : true},
-		"TINY"     : { "file" : "WenQuanYi.ttf", "size" : 9, "blend" : true},
+		"TINY"     : { "file" : "WenQuanYi.ttf", "size" : 9, "blend" : true, "noShadow" : true},
 		"VERD10B"  : { "file" : "WenQuanYi.ttf", "size" : 13, "blend" : true}
 	}
 }

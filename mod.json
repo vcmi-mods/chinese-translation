@@ -29,6 +29,7 @@
 	"translations" : [
 		"config/vcmi-chinese/game.json",
 		"config/vcmi-chinese/maps.json",
-		"config/vcmi-chinese/campaigns.json"
+		"config/vcmi-chinese/campaigns.json",
+		"config/vcmi-chinese/chronicles.json"
 	]
 }

@@ -5,13 +5,11 @@
 	"author" : "qingzhe huang",
 	"contact" : "http://forum.vcmi.eu/profile.php?mode=viewprofile&u=336",
 	"modType" : "Graphical",
-	
-	"depends" :
-	[
+
+	"depends" : [
 		"vcmi"
 	],
-	"conflicts" :
-	[
+	"conflicts" : [
 		"cove-rus",
 		"wog rus",
 		"True type fonts"

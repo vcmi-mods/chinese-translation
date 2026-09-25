@@ -6,25 +6,33 @@
 	"contact" : "Wechat ID:lishaoxia1985",
 	"language" : "chinese",
 	"modType" : "Translation",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
-	"changelog" : 
-	{ 
-		"1.0.4" : [ "Translation improvements" ],
-		"1.0.3" : [ "Little fixes" ],
-		"1.0.2" : [ "png images" ],
-		"1.0.1" : [ "SoD Main menu buttons + chronicles from https://forum.vcmi.eu/t/simplified-chinese-translation/5672" ],
-		"1.0.0" : [ "Initial release" ]
+	"changelog" : {
+		"1.0.4" : [
+			"Translation improvements"
+		],
+		"1.0.3" : [
+			"Little fixes"
+		],
+		"1.0.2" : [
+			"png images"
+		],
+		"1.0.1" : [
+			"SoD Main menu buttons + chronicles from https://forum.vcmi.eu/t/simplified-chinese-translation/5672"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 	"german" : {
 		"name" : "Chinesische Übersetzung",
-		"description" : "Chinesische Übersetzung von Heroes of Might and Magic III: Complete Edition"	
+		"description" : "Chinesische Übersetzung von Heroes of Might and Magic III: Complete Edition"
 	},
 	"chinese" : {
 		"name" : "中文翻译",
-		"description" : "来自《魔法门之英雄无敌III：完整版》（Heroes of Might and Magic III: Complete）的中文翻译。"	
+		"description" : "来自《魔法门之英雄无敌III：完整版》（Heroes of Might and Magic III: Complete）的中文翻译。"
 	},
 	"translations" : [
 		"config/vcmi-chinese/game.json",

@@ -2,19 +2,18 @@
 	// Original HoMM 3 bitmap fonts
 	// Stored in H3Bitmap.lod with fnt extension
 	// Warning: Do not change number of entries in this list
-	"bitmap" :
-	[
-		"BIGFONT",  // Mostly used for window titles
-		"CALLI10R", // Used when you view the map by the spell such as 'View Earth' 
-		"CREDITS",  // Used for credits menu
-		"HISCORE",  // Used when you win the scenario and get a score
-		"MEDFONT",  // Some titles
+	"bitmap" : [
+		"BIGFONT", // Mostly used for window titles
+		"CALLI10R", // Used when you view the map by the spell such as 'View Earth'
+		"CREDITS", // Used for credits menu
+		"HISCORE", // Used when you win the scenario and get a score
+		"MEDFONT", // Some titles
 		"SMALFONT", // Most of the messages
-		"TIMES08R", // Used to display amounts on creature card 
-		"TINY",     // Some text
-		"VERD10B"   // Unused in VCMI
+		"TIMES08R", // Used to display amounts on creature card
+		"TINY", // Some text
+		"VERD10B" // Unused in VCMI
 	],
-	
+
 	// True type replacements
 	// Should be in format:
 	// <replaced bitmap font name, case-sensetive> : <true type font description>
@@ -22,16 +21,54 @@
 	// "size" - point size of font
 	// "style" - italic and\or bold, indicates font style
 	// "blend" - if set to true, font will be antialiased
-	"trueType":
-	{
-		"BIGFONT"  : { "file" : "SIMLI.ttf", "size" : 22, "blend" : true},
-		"CALLI10R" : { "file" : "SIMLI.ttf", "size" : 18, "blend" : true},
-		"CREDITS"  : { "file" : "WenQuanYi.ttf", "shadow" : true, "size" : 28, "blend" : true},
-		"HISCORE"  : { "file" : "SIMLI.ttf", "shadow" : true, "size" : 22, "blend" : true},
-		"MEDFONT"  : { "file" : "WenQuanYi.ttf", "size" : 16, "blend" : true}, // breaks messages (from map events)
-		"SMALFONT" : { "file" : "WenQuanYi.ttf", "size" : 13, "blend" : true},
-		"TIMES08R" : { "file" : "WenQuanYi.ttf", "size" :  9, "blend" : true},
-		"TINY"     : { "file" : "WenQuanYi.ttf", "size" : 9, "blend" : true, "noShadow" : true},
-		"VERD10B"  : { "file" : "WenQuanYi.ttf", "size" : 13, "blend" : true}
+	"trueType" : {
+		"BIGFONT" : {
+			"file" : "SIMLI.ttf",
+			"size" : 22,
+			"blend" : true
+		},
+		"CALLI10R" : {
+			"file" : "SIMLI.ttf",
+			"size" : 18,
+			"blend" : true
+		},
+		"CREDITS" : {
+			"file" : "WenQuanYi.ttf",
+			"shadow" : true,
+			"size" : 28,
+			"blend" : true
+		},
+		"HISCORE" : {
+			"file" : "SIMLI.ttf",
+			"shadow" : true,
+			"size" : 22,
+			"blend" : true
+		},
+		"MEDFONT" : {
+			"file" : "WenQuanYi.ttf",
+			"size" : 16,
+			"blend" : true
+		}, // breaks messages (from map events)
+		"SMALFONT" : {
+			"file" : "WenQuanYi.ttf",
+			"size" : 13,
+			"blend" : true
+		},
+		"TIMES08R" : {
+			"file" : "WenQuanYi.ttf",
+			"size" : 9,
+			"blend" : true
+		},
+		"TINY" : {
+			"file" : "WenQuanYi.ttf",
+			"size" : 9,
+			"blend" : true,
+			"noShadow" : true
+		},
+		"VERD10B" : {
+			"file" : "WenQuanYi.ttf",
+			"size" : 13,
+			"blend" : true
+		}
 	}
 }
